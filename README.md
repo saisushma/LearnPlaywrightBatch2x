@@ -9,9 +9,13 @@ LearnPlaywrightBatch2x/
 ├── chapter_01_basics/              # JavaScript Basics
 │   ├── 01_Basics.js                # Introduction to JS basics
 │   ├── 02_JS.js                    # Core JavaScript concepts
-│   └── 03_JS_commands.js           # Common JS commands
+│   ├── 03_JS_commands.js           # Common JS commands
+│   └── 04_HotCode.js               # Hot code / quick tips
 ├── chapter_02_Javascript_concepts/ # Advanced JavaScript topics
+│   └── 05_JS_Basics.js             # JS fundamentals recap
 └── chapter_03_Identifier_lieterals/# Identifiers, Literals & Comments
+    ├── 06_Identifier_Rules.js      # Identifier naming rules
+    ├── 07_identifiers_Part2.js     # Naming conventions (camelCase, PascalCase, snake_case, etc.)
     ├── 08_Comments.js              # Single-line & multi-line comments
     └── VS_code_keyboard_shortcut_windows.md  # VS Code shortcuts reference
 ```
@@ -22,13 +26,21 @@ LearnPlaywrightBatch2x/
 - Introduction to JavaScript
 - Variables and data types
 - Basic commands and console operations
+- Hot code snippets and quick tips
 
 ### Chapter 2: JavaScript Concepts
 - Core programming concepts
 - Functions, loops, and conditionals
+- JS fundamentals recap
 
 ### Chapter 3: Identifiers & Literals
-- Naming conventions for identifiers
+- Identifier naming rules and restrictions
+- Naming conventions:
+  - `camelCase` (standard for JS variables and functions)
+  - `PascalCase` (standard for JS classes and constructors)
+  - `snake_case` (underscore separated)
+  - `SCREAMING_SNAKE_CASE` (constants)
+  - `Hungarian Notation` (type prefix - older style)
 - Different types of literals in JavaScript
 - Commenting best practices (`//` and `/* */`)
 - VS Code keyboard shortcuts reference for Windows
