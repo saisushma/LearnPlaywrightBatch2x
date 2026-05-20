@@ -13,11 +13,56 @@ LearnPlaywrightBatch2x/
 │   └── 04_HotCode.js               # Hot code / quick tips
 ├── chapter_02_Javascript_concepts/ # Advanced JavaScript topics
 │   └── 05_JS_Basics.js             # JS fundamentals recap
-└── chapter_03_Identifier_lieterals/# Identifiers, Literals & Comments
-    ├── 06_Identifier_Rules.js      # Identifier naming rules
-    ├── 07_identifiers_Part2.js     # Naming conventions (camelCase, PascalCase, snake_case, etc.)
-    ├── 08_Comments.js              # Single-line & multi-line comments
-    └── VS_code_keyboard_shortcut_windows.md  # VS Code shortcuts reference
+├── chapter_03_Identifier_lieterals/# Identifiers, Literals & Comments
+│   ├── 06_Identifier_Rules.js      # Identifier naming rules
+│   ├── 07_identifiers_Part2.js     # Naming conventions (camelCase, PascalCase, snake_case, etc.)
+│   ├── 08_Comments.js              # Single-line & multi-line comments
+│   └── VS_code_keyboard_shortcut_windows.md  # VS Code shortcuts reference
+├── chapter_04_JS_Concepts/         # Variables, Scope & Hoisting
+│   ├── 09_var_let_const.js         # var, let, const differences
+│   ├── 10_functions.js             # Function basics
+│   ├── 11_var_explained.js         # var deep dive
+│   ├── 12_let_people_love.js       # let usage
+│   ├── 13_const_explained.js       # const deep dive
+│   ├── 14_var_functionscope.js     # Function scope with var
+│   ├── 15_let_Scope.js             # let scope
+│   ├── 16_hoisting.js              # Hoisting basics
+│   ├── 17_hoisiting_functions.js   # Function hoisting
+│   ├── 18_let_hoisiting.js         # let hoisting
+│   ├── 19_let_hoisting_block.js    # Block-level hoisting
+│   ├── 20_let_const.js             # let vs const
+│   └── 21_Usageof_TDZ.js           # Temporal Dead Zone
+├── chapter_05_literals/            # Literals & Data Types
+│   ├── 22_Literal.js               # Introduction to literals
+│   ├── 23_null_undefined.js        # null vs undefined
+│   ├── 24_null.js                  # null in detail
+│   ├── 25_Literal_All.js           # All literals overview
+│   ├── 26_literal_number_All.js    # Number literals
+│   ├── 27_String.js                # String literals
+│   └── 28_Template_Literal.js      # Template literals
+├── chapter_06_operators/           # Operators in JavaScript
+│   ├── 30_Operator.js              # Introduction to operators
+│   ├── 31_Arthemtic_operator.js    # Arithmetic operators
+│   ├── 32_Modulus_OP.js            # Modulus operator
+│   ├── 33_Expo_Op.js               # Exponentiation operator
+│   ├── 34_IQ.js                    # Operator IQ questions
+│   ├── 35_Comparsion_OP.js         # Comparison operators
+│   ├── 36_comparsion_strict_loose.js # Strict vs loose equality
+│   ├── 37_IQ_loose_Strict.js       # Strict/loose IQ questions
+│   ├── 38_confusing_comparsion.js  # Confusing comparisons
+│   ├── 39_Logical_op.js            # Logical operators
+│   ├── 40_String_Concat.js         # String concatenation
+│   ├── 41_Ternary_Op.js            # Ternary operator
+│   ├── 42_Type_OP.js               # Type operators
+│   ├── 43_Incre_Decre_Op.js        # Increment/Decrement operators
+│   ├── 44_Null_Op.js               # Nullish coalescing operator
+│   └── 45_IQ.js                    # Operator IQ questions
+├── chapter_07/                     # Conditionals & Practice
+│   ├── IQ.js                       # Conditional IQ questions
+│   ├── IQ1.js                      # More conditional questions
+│   └── IQ2_leapyear.js             # Leap year exercise
+└── chapter_08_Switch_statement/    # Switch Statements
+    └── 59_Switch.js                # Switch statement basics
 ```
 
 ## Chapters Overview
@@ -44,6 +89,41 @@ LearnPlaywrightBatch2x/
 - Different types of literals in JavaScript
 - Commenting best practices (`//` and `/* */`)
 - VS Code keyboard shortcuts reference for Windows
+
+### Chapter 4: JavaScript Concepts - Variables, Scope & Hoisting
+- `var`, `let`, and `const` differences and usage
+- Function scope vs block scope
+- Hoisting in JavaScript
+- Temporal Dead Zone (TDZ)
+- Best practices for variable declarations
+
+### Chapter 5: Literals & Data Types
+- Introduction to literals in JavaScript
+- `null` vs `undefined`
+- Number, String, and Boolean literals
+- Template literals and string interpolation
+- All literal types overview
+
+### Chapter 6: Operators
+- Arithmetic, modulus, and exponentiation operators
+- Comparison operators (strict `===` vs loose `==`)
+- Logical operators (`&&`, `||`, `!`)
+- String concatenation
+- Ternary operator
+- Type operators (`typeof`, `instanceof`)
+- Increment and decrement operators
+- Nullish coalescing operator (`??`)
+- Confusing comparison scenarios and IQ questions
+
+### Chapter 7: Conditionals & Practice
+- Conditional statements practice
+- IQ questions and exercises
+- Leap year logic implementation
+
+### Chapter 8: Switch Statements
+- `switch` statement syntax and usage
+- Break and default cases
+- Practical switch examples
 
 ## VS Code Keyboard Shortcuts
 
