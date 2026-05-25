@@ -57,12 +57,42 @@ LearnPlaywrightBatch2x/
 │   ├── 43_Incre_Decre_Op.js        # Increment/Decrement operators
 │   ├── 44_Null_Op.js               # Nullish coalescing operator
 │   └── 45_IQ.js                    # Operator IQ questions
-├── chapter_07/                     # Conditionals & Practice
+├── chapter_07_if_else/             # Conditionals & Practice
 │   ├── IQ.js                       # Conditional IQ questions
 │   ├── IQ1.js                      # More conditional questions
-│   └── IQ2_leapyear.js             # Leap year exercise
-└── chapter_08_Switch_statement/    # Switch Statements
-    └── 59_Switch.js                # Switch statement basics
+│   ├── IQ2_leapyear.js             # Leap year exercise
+│   ├── Task-1.js                   # If-else practice task 1
+│   ├── Task-2.js                   # If-else practice task 2
+│   ├── Task-3.js                   # If-else practice task 3
+│   ├── task-4.js                   # If-else practice task 4
+│   └── TASK-5.JS                   # If-else practice task 5
+├── chapter_08_Switch_statement/    # Switch Statements
+│   ├── 59_Switch.js                # Switch statement basics
+│   ├── 60_No_break.js              # Switch without break
+│   └── 61_Realtime_Example.js      # Real-world switch example
+├── chapter_09_UserInput/           # User Input
+│   ├── 68_User_input.js            # User input basics
+│   └── 69_Node_readline.js         # Node.js readline module
+├── chapter_10_loops/               # Loops in JavaScript
+│   ├── 71_For_loop.js              # for loop basics
+│   ├── 72_For_loop.js              # for loop variations
+│   ├── 73_for_loop2.js             # Advanced for loop
+│   ├── 74_IQ.js                    # Loop IQ questions
+│   ├── 75_For_Of_in_each.js        # for...of, for...in, forEach
+│   ├── 76_While.js                 # while loop
+│   ├── 77_Do_While.js              # do...while loop
+│   ├── 78_Do_while.js              # do...while variations
+│   ├── 79_IQ.js                    # Loop IQ questions
+│   ├── 80_IQ.js                    # Loop IQ questions
+│   └── 81_IQ.js                    # Loop IQ questions
+└── chapter_11_Arrays/              # Arrays in JavaScript
+    ├── 84_Arrays.js                # Array basics
+    ├── 86_Arrays_adding_Remove.js  # Adding & removing elements
+    ├── 87_Adding_remove2.js        # More array manipulation
+    ├── 88_Real_Example_inc.js      # Real-world array examples
+    ├── 89_Searching_inc.js         # Searching arrays
+    ├── 90_iterate_inc.js           # Iterating arrays
+    └── 91_transform_Arrays.js      # Transforming arrays
 ```
 
 ## Chapters Overview
@@ -119,11 +149,31 @@ LearnPlaywrightBatch2x/
 - Conditional statements practice
 - IQ questions and exercises
 - Leap year logic implementation
+- If-else practice tasks (Task 1–5)
 
 ### Chapter 8: Switch Statements
 - `switch` statement syntax and usage
 - Break and default cases
+- Switch without `break` (fall-through)
 - Practical switch examples
+
+### Chapter 9: User Input
+- Accepting user input in JavaScript
+- Node.js `readline` module usage
+- Interactive command-line programs
+
+### Chapter 10: Loops
+- `for` loop basics and variations
+- `while` and `do...while` loops
+- `for...of`, `for...in`, and `forEach`
+- Loop IQ questions and tricky scenarios
+
+### Chapter 11: Arrays
+- Array creation and basics
+- Adding and removing elements
+- Searching and iterating arrays
+- Real-world array examples
+- Transforming arrays with `map`, `filter`, `reduce`
 
 ## VS Code Keyboard Shortcuts
 
