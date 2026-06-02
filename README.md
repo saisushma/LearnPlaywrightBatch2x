@@ -93,6 +93,8 @@ LearnPlaywrightBatch2x/
     ├── 89_Searching_inc.js         # Searching arrays
     ├── 90_iterate_inc.js           # Iterating arrays
     └── 91_transform_Arrays.js      # Transforming arrays
+└── chapter_12_functions/           # Functions in JavaScript
+    └── 104_Arrow_Fn_REAL.js        # Normal, Expression & Arrow functions
 ```
 
 ## Chapters Overview
@@ -174,6 +176,24 @@ LearnPlaywrightBatch2x/
 - Searching and iterating arrays
 - Real-world array examples
 - Transforming arrays with `map`, `filter`, `reduce`
+
+### Chapter 12: Functions
+- Function declarations vs expressions vs arrow functions
+- Hoisting behavior differences
+- `this` binding in different function types
+- When to use each function type
+
+## Function Types Comparison
+
+| Aspect | Normal Function (Declaration) | Function Expression | Arrow Function |
+|--------|------------------------------|---------------------|----------------|
+| **Syntax** | `function name(params) { ... }` | `const name = function(params) { ... }` | `const name = (params) => { ... }` |
+| **Hoisting** | Hoisted - Can be called before declaration | Not hoisted - Cannot be called before assignment | Not hoisted - Cannot be called before assignment |
+| **`this` Binding** | Has its own `this` (dynamic) | Has its own `this` (dynamic) | Inherits `this` from parent scope (lexical) |
+| **Constructor Usage** | Can be used with `new` | Can be used with `new` | Cannot be used with `new` |
+| **`arguments` Object** | Has `arguments` object | Has `arguments` object | No `arguments` object |
+| **Implicit Return** | Must use `return` keyword | Must use `return` keyword | Single expression can return without `return` |
+| **Best For** | Reusable functions, methods | Callbacks, conditional functions | Short callbacks, array methods, preserving `this` |
 
 ## VS Code Keyboard Shortcuts
 
