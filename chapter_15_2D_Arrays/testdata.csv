@@ -1,0 +1,3 @@
+username,passwd,expected_result
+admin,admin,not_allowed
+admin,password,allowed

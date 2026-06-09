@@ -9,4 +9,4 @@ retry("Payment Test", 2, 2000);
 /*
 Retrying Login Test with maxRetries: 3 and delay: 1000ms
 Retrying Signup Test with maxRetries: 5 and delay: 1000ms
-Retrying Payment Test with maxRetries: 2 and delay: 2000ms
+Retrying Payment Test with maxRetries: 2 and delay: 2000ms */
