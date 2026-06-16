@@ -1,0 +1,10 @@
+node_modules/
+
+# Playwright generated output
+playwright-report/
+test-results/
+
+# Logs and local environment files
+*.log
+.env
+.env.*

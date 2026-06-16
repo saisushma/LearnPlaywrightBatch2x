@@ -20,6 +20,10 @@ LearnPlaywrightBatch2x/
 |-- chapter_12_functions/            # Function declarations, expressions, parameters, and spread/rest
 |-- chapter_13_Strings/              # String properties, methods, searching, substrings, and tasks
 |-- chapter_15_2D_Arrays/            # 2D arrays, nested iteration, examples, tasks, and CSV data
+|-- chapter_16_Callback/             # Callback functions, synchronous/asynchronous callbacks, and callback hell
+|-- chapter_17_Promises/             # Promises, API examples, finally, callback pyramid fixes, and Promise.all
+|-- chapter_18_async_await/          # Async/await basics
+|-- chapter_19_Playwright_basics/    # Playwright project setup and package files
 `-- coding_test/                     # Coding practice files
 ```
 
@@ -112,6 +116,29 @@ LearnPlaywrightBatch2x/
 - Functions for working with 2D arrays
 - Pattern-based IQ questions
 - CSV test data examples
+
+### Chapter 16: Callback Functions
+- Passing functions as arguments
+- JavaScript and Playwright-style callback examples
+- Synchronous and asynchronous callbacks
+- Callback hell and nested callback flow
+
+### Chapter 17: Promises
+- Creating and consuming promises
+- Promise-based API examples
+- `finally` usage
+- Solving callback pyramid problems with promises
+- Running multiple promises with `Promise.all`
+
+### Chapter 18: Async/Await
+- Async function basics
+- Awaiting promise results
+- Cleaner asynchronous code flow
+
+### Chapter 19: Playwright Basics
+- Initial Playwright project setup
+- `package.json` and dependency lock file
+- Playwright dependency installation reference
 
 ## Function Types Comparison
 
