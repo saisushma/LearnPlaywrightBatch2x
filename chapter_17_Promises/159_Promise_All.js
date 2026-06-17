@@ -7,13 +7,21 @@ Promise.all([checkAuth, checkDB, checkCache]).then(function (results){
     
 })
 
-Promise.all([
-    Promise.resolve("Ok"),
-    Promise.reject("Db down"),
-    Promise.resolve("ok")
-]).then(function (r){
-    console.log(r);    
-}).catch(function(error){
-    console.log("failed:", err);
+// Promise.all([
+//     Promise.resolve("Ok"),
+//     Promise.reject("Db down"),
+//     Promise.resolve("ok")
+// ]).then(function (r){
+//     console.log(r);    
+// }).catch(function(error){
+//     console.log("failed:", error);
     
+// })
+
+Promise.allSettled([
+    Promise.resolve("Test A passed!"),
+    Promise.reject("Test B failed!"),
+    Promise.resolve("Test C passed!")
+]).then(function (results) {
+    console.log(results);
 })
