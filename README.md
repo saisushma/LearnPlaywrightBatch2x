@@ -22,8 +22,8 @@ LearnPlaywrightBatch2x/
 |-- chapter_15_2D_Arrays/            # 2D arrays, nested iteration, examples, tasks, and CSV data
 |-- chapter_16_Callback/             # Callback functions, synchronous/asynchronous callbacks, and callback hell
 |-- chapter_17_Promises/             # Promises, API examples, finally, callback pyramid fixes, and Promise.all
-|-- chapter_18_async_await/          # Async/await basics
-|-- chapter_19_Playwright_basics/    # Playwright project setup and package files
+|-- chapter_18_async_await/          # Async/await basics, sequencing, parallel execution, and examples
+|-- chapter_19_Playwright_basics/    # Playwright project setup, config, tests, and CI workflow
 `-- coding_test/                     # Coding practice files
 ```
 
@@ -134,11 +134,16 @@ LearnPlaywrightBatch2x/
 - Async function basics
 - Awaiting promise results
 - Cleaner asynchronous code flow
+- Sequential vs parallel async execution
+- Async/await interview questions and login-flow examples
 
 ### Chapter 19: Playwright Basics
 - Initial Playwright project setup
 - `package.json` and dependency lock file
 - Playwright dependency installation reference
+- Playwright Test configuration with Chromium, Firefox, and WebKit projects
+- Sample UI test under `tests/`
+- GitHub Actions workflow for running Playwright checks in CI
 
 ## Function Types Comparison
 
@@ -172,6 +177,20 @@ A comprehensive list of default VS Code keyboard shortcuts for Windows is availa
 
    ```bash
    node chapter_01_basics/01_Basics.js
+   ```
+
+4. Run Playwright tests:
+
+   ```bash
+   cd chapter_19_Playwright_basics
+   npm install
+   npx playwright test
+   ```
+
+5. View the Playwright HTML report after a test run:
+
+   ```bash
+   npx playwright show-report
    ```
 
 ## Prerequisites

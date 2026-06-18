@@ -23,5 +23,9 @@ Promise.allSettled([
     Promise.reject("Test B failed!"),
     Promise.resolve("Test C passed!")
 ]).then(function (results) {
-    console.log(results);
+    results.forEach(function (r,i){
+        console.log("test"+ (i+1)+ ":", r.status, "-", r.value || r.reason);
+        
+    });    
+
 })

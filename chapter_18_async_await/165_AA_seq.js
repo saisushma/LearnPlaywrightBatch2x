@@ -17,7 +17,16 @@ async function seq(){
 
     let r1 = await apiCall("Login");
     console.log(r1);
-    
+
+    let r2 = await apiCall("DashBoard");
+    console.log(r2);
+
+    let r3 = await apiCall("Report");
+    console.log(r3);
+
+    console.log("Time: ~" + (Date.now()- start)+ "ms");
     
     
 }
+
+    seq();
